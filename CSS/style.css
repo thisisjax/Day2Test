@@ -2,7 +2,7 @@
 body {
     background-color: #efeee7;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-display: #333333;
+    color: #333333;
     margin: 0;
     padding: 0;
 }
@@ -10,4 +10,30 @@ body {
 header {
     background-color: #333333
 }
-
+/*h1*/
+h1 {
+    color: #eee;
+    padding: 20px 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.container {
+    width: 1024px;
+    margin: 0 auto;
+}
+#main-bio,
+#contact-info,
+#bio-image {
+    float: left;
+}
+#main-bio {
+    width: 70%;
+}
+#contact-info {
+    width: 30%;
+}
+#bio-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+}
